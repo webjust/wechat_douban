@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image src="/images/avatar.jpg" class="userinfo-avatar"></image>
+    <text class="logo-txt">豆瓣图书</text>
+    <view class="btn_enter" bindtap="onTap">
+      <text class="enter_txt">进入</text>
+    </view>
+    <text class="wel-msg">给你喜欢的图书点个赞吧！！！</text>
+  </view>
+</view>

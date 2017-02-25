@@ -1,0 +1,13 @@
+<template name="book_block">
+    <view class="book_item">
+      <view>
+        <image src="{{img}}"></image>
+      </view>
+      <view class="bookname">
+        <text>{{title}}</text>
+      </view>
+      <view class="bookauthor">
+        <text>{{author}}</text>
+      </view>
+    </view>
+</template>

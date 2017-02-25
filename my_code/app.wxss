@@ -1,0 +1,20 @@
+/**app.wxss**/
+.container {
+  /*height: 1334rpx;*/
+  /*view组件: 弹性盒子模型*/
+  display: flex;
+  /*盒子模型：按列显示*/
+  flex-direction: column;
+  /*盒子模型：居中*/
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  font-family: MicroSoft Yahei;
+}
+
+page {
+  height: 100%;
+  /*背景色*/
+  background-color: #ffffff;
+}

@@ -1,0 +1,33 @@
+
+<!--导入模板-->
+<import src="post/block" />
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="2000">
+    <swiper-item>
+      <image src="/images/swiper/s/01.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/s/02.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/s/03.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/s/04.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/s/05.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="book_list">
+  <view class="top_title">
+    <text>新书速递</text>
+  </view>
+  <block wx:for="{{posts_key}}" wx:for-index="index" wx:for-item="item">
+    <view catchtap="detailTap" data-book-id="{{item.bookId}}">
+      <!--引入模板-->
+      <template is="book_block" data="{{...item}}" />
+    </view>
+  </block>
+</view>

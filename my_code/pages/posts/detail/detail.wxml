@@ -1,0 +1,34 @@
+<view class="content">
+  <view>
+    <text class="book_title">{{bookDetail.title}}</text>
+  </view>
+  <view class="book_head">
+    <view class="lar_img">
+      <image src="{{bookDetail.img}}"></image>
+    </view>
+    <view class="book_info">
+      <text>作者: {{bookDetail.author}}</text>
+      <text>出版社: {{bookDetail.publisher}}</text>
+      <text>出版年: {{bookDetail.update}}</text>
+      <text>页数: {{bookDetail.pages}}</text>
+      <text>定价: {{bookDetail.price}}</text>
+      <text>ISBN: {{bookDetail.isbn}}</text>
+    </view>
+  </view>
+  <view class="book_des">
+  <view class="book_content">
+    <text class="tit">内容简介</text>
+    <text>{{bookDetail.content}}</text>
+  </view>
+  <view class="book_author">
+    <text class="tit">作者简介</text>
+    <text>{{bookDetail.authorInfo}}</text>
+  </view>
+  </view>
+  <view class="share" catchtap="shareTap">
+    <!--获取当前点赞的状态，作为条件，显示不同的图片-->
+    <image wx:if="{{bookLikedStatus}}" src="/images/icon/like.png"></image>
+    <image wx:else src="/images/icon/nolike.png"></image>
+    <text>给我点赞！</text>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+.book_item {
+  width: 220rpx;
+  float: left;
+  display: inline-block;
+  display: flex;  
+  flex-direction: column;
+  padding: 0 15rpx;
+  margin-bottom: 20px;
+}
+
+.book_item image{
+  width: 220rpx;
+  height: 280rpx;
+}
+
+.book_item text{
+  font-size: 12px;
+}
+
+.bookname text{
+  height: 16px;
+  /*background-color: red;*/
+  color: #333;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+}
+
+.bookauthor text{
+  color: #999;
+}

@@ -1,0 +1,24 @@
+@import "post/block.wxss";
+
+/*轮播图样式*/
+swiper {
+  width: 100%;
+  height: 525rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 525rpx;
+}
+
+/*书籍排列样式*/
+.book_list {
+    font-family: MicroSoft Yahei;
+}
+
+.top_title {
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+}
+

@@ -1,0 +1,52 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+.wel-msg {
+  font-size: 32rpx;
+  margin-top: 200rpx;
+  font-style: italic;
+  color: #999;
+}
+
+.logo-txt {
+  color: chocolate;
+  font-size: 42rpx;
+  /*font-weight: bolder;*/
+}
+
+/*按钮*/
+.btn_enter {
+  border: 1px solid coral;
+  width: 200rpx;
+  height: 60rpx;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 50rpx;
+  background-color: cornsilk ;
+}
+
+/*按钮文字*/
+.enter_txt {
+  font-size: 28rpx;
+  color: chocolate;
+  line-height: 60rpx;
+}
